@@ -29,7 +29,7 @@ export default function Home() {
       <div>
         <input 
         type="password" 
-        className="border p-2 rounded"  
+        className="border p-2 rounded"    
         onChange={e => setApiKey(e.target.value)}
         value={apiKey}
         placeholder="Paste API key here"/>
